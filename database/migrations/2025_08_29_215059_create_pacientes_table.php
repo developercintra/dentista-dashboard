@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nome');
             $table->string('telefone',20);
-            $table->strring('email')->unique();
+            $table->string('email')->unique();
             $table->string('serviços');
             $table->date('data_perfeita');
             $table->time('horario_perfeito');
